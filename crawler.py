@@ -19,8 +19,8 @@ class Util:
 
   @staticmethod
   def photo_ajax_query_url(profile_id, album_id, page):
-    return 'http://photo.renren.com/photo/%s/album-%s/bypage/ajax/v7? \
-            page=%d&pageSize=40' % (profile_id, album_id, page)
+    return 'http://photo.renren.com/photo/%s/album-%s/bypage/ajax/v7?' \
+           'page=%d&pageSize=40' % (profile_id, album_id, page)
 
   @staticmethod
   def create_dir_if_no_exist(directory):
